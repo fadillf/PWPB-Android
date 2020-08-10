@@ -10,9 +10,9 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="590dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_weight="1"
+        android:layout_weight="1.5"
         android:background="@color/colorTosca">
 
         <ImageView

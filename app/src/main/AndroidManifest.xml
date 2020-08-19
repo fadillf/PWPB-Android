@@ -9,23 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FrameLayoutActivity2">
+        <activity android:name=".ConstraintLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FrameLayoutActivity">
+        <activity android:name=".LatihanGridLayoutActivity" >
 
         </activity>
-        <activity android:name=".TableLayoutActivity">
+        <activity android:name=".GridLayoutActivity">
 
         </activity>
-
-        <activity android:name=".ProfileActivity">
-
+        <activity android:name=".FrameLayoutActivity2">
         </activity>
+        <activity android:name=".FrameLayoutActivity" />
+        <activity android:name=".TableLayoutActivity" />
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".DaftarActivity2" />
         <activity android:name=".RelativeLayoutActivity" />
         <activity android:name=".LatihanActivity" />
